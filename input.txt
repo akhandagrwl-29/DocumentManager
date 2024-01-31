@@ -1,0 +1,7 @@
+CREATE_USER U1 akhand password
+CREATE_DOC D1 notes U1 meeting_notes
+UPDATE_DOC D1 notes U1 password meeting_notes_idea
+GET_USER_DOCS U1 password
+DELETE_DOC D1 U1 password
+GET_USER_DOCS U1 password
+EXIT
